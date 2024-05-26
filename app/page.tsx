@@ -3,10 +3,15 @@ import ProjectCard from "./components/ProjectCard";
 import Filter from "./components/Filter";
 export default function Page() {
   return (
-    <div className="flex flex-col items-center">
-      <NavigationBar />
+    <div className='flex flex-col items-center'>
       <Filter />
-      <ProjectCard />
+      <ProjectCard
+        name="Project's Name"
+        desc="This is a description"
+        year="2020"
+        type="Design"
+        imgsrc="/frame1.png"
+      />
     </div>
   );
 }
