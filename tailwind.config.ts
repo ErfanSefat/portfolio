@@ -8,11 +8,19 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors:{
+        'card-background': 'rgba(0,0,0,0.5)',
+        'card-background2': 'rgba(0,0,0,0.1)',
+        'white-1': 'rgba(255, 255, 255, 0.4)',
+        'white-2': 'rgba(255, 255, 255, 0.1)',
+        'white-3': 'rgba(255, 255, 255, 0.2)',
+        'white-4': 'rgba(255, 255, 255, 0.05)',
       },
+      dropShadow:{
+        'rich1': '0 5px 8px rgba(0, 0, 0, 0.3)',
+        'rich2': '0 5px 5px rgba(0, 0, 0, 0.5)',
+        'rich3': '0 10px 8px rgba(0, 0, 0, 0.8)',
+      }
     },
   },
   plugins: [],
