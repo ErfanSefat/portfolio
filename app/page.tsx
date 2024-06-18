@@ -9,17 +9,17 @@ export default function Page() {
     { imgsrc: "/frame2.png", key: 2 },
     { imgsrc: "/frame3.png", key: 3 },
   ];
-  const bg = useRef();
+  const bg = useRef<HTMLDivElement>(null);
   function changecolor({ url }: { url: string }) {
-    if (bg) {
+    if (bg.current) {
       bg.current.style.backgroundImage = `url(${url})`;
     }
   }
   function resetcolor() {
-    if (bg) bg.current.style.backgroundImage = "url(/empty.png)";
+    if (bg.current) bg.current.style.backgroundImage = "url(/empty.png)";
   }
   return (
-    <div className="flex flex-col items-center relative">
+    <div className="flex flex-col items-center ">
       <div
         className="w-dvw h-dvh fixed bg-no-repeat bg-center rounded-[1000px] bg-cover blur-[300px] z-[-1] opacity-30"
         id="bgbg"
