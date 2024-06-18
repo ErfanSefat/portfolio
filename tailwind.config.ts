@@ -23,8 +23,24 @@ const config: Config = {
         'rich1': '0 5px 8px rgba(0, 0, 0, 0.3)',
         'rich2': '0 5px 5px rgba(0, 0, 0, 0.5)',
         'rich3': '0 10px 8px rgba(0, 0, 0, 0.8)',
+        'rich4': '0 10px 20px rgba(0, 0, 0, 0.8)',
+        'rich5': '0 5px 20px rgba(0, 0, 0, 1)',
+      },
+      animation: {
+        'spin-slow': 'spin 20s linear infinite',
+        'spin-slow2': 'spin 40s linear infinite',
+        'spin-slow3': 'spin 60s linear infinite',
+        'reverse-spin': 'reverse-spin 60s linear infinite'
+      },
+      keyframes: {
+        'reverse-spin': {
+          from: {
+            transform: 'rotate(360deg)'
+          },
+        }
       }
     },
+    
   },
   plugins: [],
 };

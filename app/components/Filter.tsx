@@ -15,7 +15,7 @@ const Cat = ({ name }: { name: string }) => {
     setStatus(!status);
   }
   return (
-    <div className="cursor-pointer flex items-center mx-10 mb-5 w-20" onClick={handle}>
+    <div className="cursor-pointer flex items-center mx-10 mb-20 w-20" onClick={handle}>
       <div className={clsx("h-3 w-3 bg-white-1 rounded-lg mr-2 border opacity-50 duration-100", {" bg-blue-700 opacity-100": status})}></div>
       {name}
     </div>

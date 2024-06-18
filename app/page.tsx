@@ -2,7 +2,8 @@
 import ProjectCard from "./components/ProjectCard";
 import Filter from "./components/Filter";
 import Intro from "./components/Intro";
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
+
 export default function Page() {
   const a = [
     { imgsrc: "/frame1.png", key: 1 },
@@ -18,14 +19,14 @@ export default function Page() {
   function resetcolor() {
     if (bg.current) bg.current.style.backgroundImage = "url(/empty.png)";
   }
+
   return (
     <div className="flex flex-col items-center ">
       <div
-        className="w-dvw h-dvh fixed bg-no-repeat bg-center rounded-[1000px] bg-cover blur-[300px] z-[-1] opacity-30"
-        id="bgbg"
+        className="w-dvw h-dvh fixed bg-no-repeat bg-center rounded-[1000px] bg-cover blur-[300px] -z-20 opacity-30 -top-5 brightness-50"
         ref={bg}
       ></div>
-      <Intro />
+      
       <Filter />
       <div className="flex flex-wrap gap-5 max-w-[800px] justify-center mx-5">
         {a.map((e) => (
