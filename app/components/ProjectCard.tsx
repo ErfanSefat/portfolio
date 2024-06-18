@@ -1,11 +1,18 @@
+"use client";
 import Image from "next/image";
+import { useEffect } from "react";
+
 const ProjectCard = ({
+  overfunc,
+  leavefunc,
   name,
   desc,
   imgsrc,
   year,
   type,
 }: {
+  overfunc: any
+  leavefunc: any
   name: string;
   desc: string;
   imgsrc: string;
@@ -13,7 +20,7 @@ const ProjectCard = ({
   type: string;
 }) => {
   return (
-    <div className="p-[1.7px] bg-gradient-to-br from-white-1 via-white-2 to-white-3 rounded-[16px] backdrop-blur-xl">
+    <div onMouseOver={overfunc} onMouseLeave={leavefunc} className="w-fit projectCard p-[1.7px] bg-gradient-to-br from-white-1 via-white-2 to-white-3 rounded-[16px] backdrop-blur-xl mb-1 cursor-pointer hover:drop-shadow-rich3 hover:scale-105">
       <div className="px-[8px] pt-[8px] pb-[13px] inline-flex flex-col items-center bg-card-background  rounded-[15px]	relative">
         <Image
           className="rounded-[9px] mb-3 drop-shadow-rich1"

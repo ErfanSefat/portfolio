@@ -6,8 +6,8 @@ import clsx from "clsx";
 const NavigationBar = () => {
   const pathname = usePathname();
   return (
-    <div className="bg-white-3 rounded-[40px] pb-[0.5px] mt-8 mb-20">
-      <div className="flex w-fit bg-black p-1 rounded-[30px] relative">
+    <div className="bg-white-3 rounded-[40px] pb-[1px] mt-8 mb-20 h-fit">
+      <div className="flex w-fit bg-[rgb(22,22,22)] p-1 rounded-[30px] relative">
         <div
           className={clsx(
             "bg-white-2 absolute rounded-[20px] bg-gradient-to-br from-white-1 via-transparent to-white-3",

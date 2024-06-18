@@ -1,8 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+* {
+  transition: all, 0.3s;
+}
 body {
   background-color: rgb(22, 22, 22);
   color: white;
-  transition: all 1s ease-out;
+}
+@font-face {
+  font-family: "playfair";
+  src: url("../public/PlayfairDisplay-ExtraBoldItalic.ttf");
+}
+@font-face {
+  font-family: "lexend";
+  src: url("../public/Lexend-ExtraLight.ttf");
+}
+.playfair {
+  font-family: playfair;
+}
+.lexend {
+  font-family: lexend;
+}
+
+.projectCard {
+
 }

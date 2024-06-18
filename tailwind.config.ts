@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        'Playfair': ['Playfair Display']
+      },
       colors:{
         'card-background': 'rgba(0,0,0,0.5)',
         'card-background2': 'rgba(0,0,0,0.1)',
