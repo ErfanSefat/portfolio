@@ -23,7 +23,7 @@ export default function TopBar() {
     });
   }, []);
   return (
-    <div className="flex items-center w-[85%] justify-between mt-5 max-w-[2000px] fixed drop-shadow-rich4">
+    <div className="flex w-[85%] justify-between mt-5 max-w-[2000px] fixed drop-shadow-rich4">
       <div
         className="bg-white-3 rounded-[40px] pb-[1px] mt-8 mb-20 m-2 cursor-pointer"
         ref={logo}

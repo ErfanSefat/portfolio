@@ -26,7 +26,7 @@ const NavigationBar = () => {
     });
   }, []);
   return (
-    <div className="bg-white-3 rounded-[40px] pb-[1px] mt-8 mb-20 h-fit" ref={selector}>
+    <div className="bg-white-3 rounded-[40px] pb-[1px] mt-8 h-fit" ref={selector}>
       <div className="flex w-fit bg-[rgb(22,22,22)] p-1 rounded-[30px] relative">
         <div
           className={clsx(

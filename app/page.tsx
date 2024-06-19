@@ -23,7 +23,7 @@ export default function Page() {
   return (
     <div className="flex flex-col items-center ">
       <div
-        className="w-dvw h-dvh fixed bg-no-repeat bg-center rounded-[1000px] bg-cover blur-[300px] -z-20 opacity-30 -top-5 brightness-50"
+        className="w-dvw h-dvh fixed bg-no-repeat bg-center rounded-[1000px] bg-cover blur-[300px] -z-20 opacity-50  brightness-50"
         ref={bg}
       ></div>
       

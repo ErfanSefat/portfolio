@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import TopBar from "./components/TopBar";
 import Intro from "./components/Intro";
+import MovingBlubs from "./components/MovingBlubs";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -17,7 +18,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="flex flex-col items-center relative">
+      <body className="flex flex-col items-center relative contain-content">
+        <MovingBlubs />
         <Intro />
         {children}
         <TopBar />
