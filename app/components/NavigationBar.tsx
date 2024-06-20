@@ -37,9 +37,9 @@ const NavigationBar = () => {
         >
           <div className="m-[0.8px] w-[110px] h-[29px] rounded-[20px] bg-card-background z-[10]"></div>
         </div>
-        <Navbuttons name={"Projects"} pic={"/projects_icon.svg"} where={"/"}/>
+        <Navbuttons name={"Archive"} pic={"/projects_icon.svg"} where={"/"}/>
         <Navbuttons
-          name={"Expertise"}
+          name={"About"}
           pic={"/expertise_icon.svg"}
           where={"/expertise"}
         />

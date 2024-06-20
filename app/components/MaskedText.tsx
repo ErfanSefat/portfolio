@@ -1,9 +1,9 @@
 import React from 'react';
 
-const MaskedText = () => {
+const MaskedText = ({text}:{text:string}) => {
   return (
-      <div className="text-[48px] text-transparent  bg-cover bg-clip-text bg-[url('/grad.png')] hover:bg-right">
-        Move on Hover
+      <div className="text-transparent bg-cover bg-clip-text bg-[url('/grad.png')] hover:bg-right">
+        {text}
       </div>
   );
 };

@@ -12,6 +12,7 @@ const config: Config = {
         'Playfair': ['Playfair Display']
       },
       colors:{
+        'background': 'rgb(22, 22, 22)',
         'card-background': 'rgba(0,0,0,0.5)',
         'card-background2': 'rgba(0,0,0,0.1)',
         'white-1': 'rgba(255, 255, 255, 0.4)',
