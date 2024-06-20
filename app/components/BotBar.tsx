@@ -4,7 +4,7 @@ import React, { useEffect, useRef } from "react";
 
 export default function BotBar() {
   return (
-    <div className="flex w-dvw justify-between font-thin my-10">
+    <div className="flex flex-col w-dvw justify-between font-thin mb-10 mt-32 lg:flex-row">
       <div className="flex flex-col ml-9">
         <div className="opacity-40 ml-2 w-fit mb-1">Profiles</div>
         <div className="flex">
@@ -26,9 +26,9 @@ export default function BotBar() {
           <LinkButton name="Github" link="https://www.behance.net/erfansefat" />
         </div>
       </div>
-      <div className="flex flex-col items-end mr-11">
+      <div className="flex flex-col ml-11 mt-8 lg:items-end lg:mr-11 lg:ml-0 lg:mt-0">
         <div className="opacity-40 ml  mb-1">Get in Touch</div>
-        <div className="flex gap-24 mr-[18px]">
+        <div className="flex gap-24 mr-0 ml-11 lg:mr-[18px]">
           <LinkButton
             name="ErfanSefat@yahoo.com"
             link="https://www.behance.net/erfansefat"
