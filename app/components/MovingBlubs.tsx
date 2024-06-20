@@ -2,7 +2,7 @@ import React from "react";
 
 export default function MovingBlubs() {
   return (
-    <div className="mr-[700px] mt-52 -z-10 absolute">
+    <div className="mr-[700px] mt-52 -z-30 absolute">
       <div className="absolute h-fit w-[1000px]  animate-reverse-spin">
         <div className="h-[400px] w-[800px] bg-red-500 blur-[200px] rounded-[1000px] absolute z-[-1] top-[-60px] left-[-60px] opacity-35"></div>
       </div>

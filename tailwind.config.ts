@@ -25,6 +25,7 @@ const config: Config = {
         'rich3': '0 10px 8px rgba(0, 0, 0, 0.8)',
         'rich4': '0 10px 20px rgba(0, 0, 0, 0.8)',
         'rich5': '0 5px 20px rgba(0, 0, 0, 1)',
+        'bottomtotop':'0 -40px 30px rgba(0, 0, 0, 1)',
       },
       animation: {
         'spin-slow': 'spin 20s linear infinite',
