@@ -3,83 +3,92 @@
     {
       "id": "9",
       "title": "Book Cover Design",
-      "desc": "Designing a Biology study guide book cover for mass publisher. ",
+      "desc": "Creating the cover design for a Biology study guide book for a major publisher.",
       "year": "2024",
       "type": "Design",
       "imgsrc": "/cover_design.png",
-      "link": "https://www.behance.net/gallery/197655051/Educational-Book-Cover-Design"
+      "link": "https://www.behance.net/gallery/197655051/Educational-Book-Cover-Design",
+      "color": "#C1B799"
     },
     {
       "id": "8",
       "title": "Blank Space",
-      "desc": "Developing a Vinyl and cassettes store.",
+      "desc": "An online store selling vinyl records and cassette tapes.",
       "year": "2023",
       "type": "Code",
       "imgsrc": "/blankspace.png",
-      "link": "https://erfansefat.github.io/BlankSpace/"
+      "link": "https://erfansefat.github.io/BlankSpace/",
+      "color": "#2F2D41"
     },
     {
       "id": "7",
-      "title": "Old Portfolio Website",
-      "desc": "Designig and developing my first portfolio website.",
+      "title": "Legacy Portfolio",
+      "desc": "Building and designing my old personal portfolio website from scratch.",
       "year": "2023",
       "type": "Code",
       "imgsrc": "/oldport.png",
-      "link": "https://erfansefat.github.io/"
+      "link": "https://erfansefat.github.io/",
+      "color": "#45E791"
     },
     {
       "id": "6",
-      "title": "YouTube on visionOS",
-      "desc": "A pov of YouTube's future user interface on visionOS",
+      "title": "YouTube on visionOS",
+      "desc": "Designing a future user interface concept for YouTube on visionOS.",
       "year": "2023",
       "type": "Design",
       "imgsrc": "/ytvos.png",
-      "link": "https://www.behance.net/gallery/174390763/YouTube-on-visionOS-Concept"
+      "link": "https://www.behance.net/gallery/174390763/YouTube-on-visionOS-Concept",
+      "color": "#B3B3B2"
     },
     {
       "id": "5",
       "title": "Shamsi Student Calendar",
-      "desc": "A calendar for students to input their school events",
+      "desc": "A shamsi calendar application for students to record and track school events.",
       "year": "2023",
       "type": "Code",
       "imgsrc": "/secal.png",
-      "link": "https://erfansefat.github.io/SECalendar/"
+      "link": "https://erfansefat.github.io/SECalendar/",
+      "color": "#1A2A30"
     },
     {
       "id": "4",
       "title": "Filimo Moblie Application",
-      "desc": "Redesigning a subscription-based streaming service",
+      "desc": "Revamping the user interface and experience of a subscription streaming app.",
       "year": "2022",
       "type": "Design",
       "imgsrc": "/filimoredesign.png",
-      "link": "https://www.behance.net/gallery/174503195/Filimo-Moblie-Application-Redesign"
+      "link": "https://www.behance.net/gallery/174503195/Filimo-Moblie-Application-Redesign",
+      "color": "#F78939"
     },
     {
       "id": "3",
       "title": "Basic Landing Page",
-      "desc": "Developing Landing page for a company from their design",
+      "desc": "Implementing a landing page for a company using their provided design.",
       "year": "2022",
       "type": "Code",
       "imgsrc": "/havaei.png",
-      "link": "https://erfansefat.github.io/Havaei/#"
+      "link": "https://erfansefat.github.io/Havaei/#",
+      "color": "#121DB1"
     },
     {
       "id": "2",
       "title": "SpaceX Launches",
-      "desc": "Using SpaceX api to make a clean launch report",
+      "desc": "Generating a streamlined launch report using the SpaceX API.",
       "year": "2022",
       "type": "Code",
       "imgsrc": "/spacex.png",
-      "link": "https://erfansefat.github.io/SpaceX/"
+      "link": "https://erfansefat.github.io/SpaceX/",
+      "color": "#674A30"
     },
     {
       "id": "1",
-      "title": "Pestrs (Pestech Posters)",
-      "desc": "Graphic design under thePestech brand",
+      "title": "Pestech",
+      "desc": "Freelance graphic designs under the Pestech brand.",
       "year": "2021-Now",
       "type": "Design",
       "imgsrc": "/thepestech.png",
-      "link": "https://bento.me/pestech"
+      "link": "https://bento.me/pestech",
+      "color": "#CE6E66"
     }
   ]
 }
