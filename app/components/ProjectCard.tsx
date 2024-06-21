@@ -10,6 +10,7 @@ const ProjectCard = ({
   imgsrc,
   year,
   type,
+  link,
 }: {
   overfunc: any;
   leavefunc: any;
@@ -18,9 +19,11 @@ const ProjectCard = ({
   imgsrc: string;
   year: string;
   type: string;
+  link: string;
 }) => {
   return (
     <div
+      onClick={()=> window.open(link)}
       onMouseOver={overfunc}
       onMouseLeave={leavefunc}
       className="w-fit projectCard p-[1px] bg-gradient-to-br from-white-1 via-white-2 to-white-3 rounded-[16px] backdrop-blur-xl cursor-pointer hover:drop-shadow-rich4 hover:scale-105"

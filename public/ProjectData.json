@@ -1,0 +1,85 @@
+{
+  "Projects": [
+    {
+      "id": "9",
+      "title": "Book Cover Design",
+      "desc": "Designing a Biology study guide book cover for mass publisher. ",
+      "year": "2024",
+      "type": "Design",
+      "imgsrc": "/cover_design.png",
+      "link": "https://www.behance.net/gallery/197655051/Educational-Book-Cover-Design"
+    },
+    {
+      "id": "8",
+      "title": "Blank Space",
+      "desc": "Developing a Vinyl and cassettes store.",
+      "year": "2023",
+      "type": "Code",
+      "imgsrc": "/blankspace.png",
+      "link": "https://erfansefat.github.io/BlankSpace/"
+    },
+    {
+      "id": "7",
+      "title": "Old Portfolio Website",
+      "desc": "Designig and developing my first portfolio website.",
+      "year": "2023",
+      "type": "Code",
+      "imgsrc": "/oldport.png",
+      "link": "https://erfansefat.github.io/"
+    },
+    {
+      "id": "6",
+      "title": "YouTube on visionOS",
+      "desc": "A pov of YouTube's future user interface on visionOS",
+      "year": "2023",
+      "type": "Design",
+      "imgsrc": "/ytvos.png",
+      "link": "https://www.behance.net/gallery/174390763/YouTube-on-visionOS-Concept"
+    },
+    {
+      "id": "5",
+      "title": "Shamsi Student Calendar",
+      "desc": "A calendar for students to input their school events",
+      "year": "2023",
+      "type": "Code",
+      "imgsrc": "/secal.png",
+      "link": "https://erfansefat.github.io/SECalendar/"
+    },
+    {
+      "id": "4",
+      "title": "Filimo Moblie Application",
+      "desc": "Redesigning a subscription-based streaming service",
+      "year": "2022",
+      "type": "Design",
+      "imgsrc": "/filimoredesign.png",
+      "link": "https://www.behance.net/gallery/174503195/Filimo-Moblie-Application-Redesign"
+    },
+    {
+      "id": "3",
+      "title": "Basic Landing Page",
+      "desc": "Developing Landing page for a company from their design",
+      "year": "2022",
+      "type": "Code",
+      "imgsrc": "/havaei.png",
+      "link": "https://erfansefat.github.io/Havaei/#"
+    },
+    {
+      "id": "2",
+      "title": "SpaceX Launches",
+      "desc": "Using SpaceX api to make a clean launch report",
+      "year": "2022",
+      "type": "Code",
+      "imgsrc": "/spacex.png",
+      "link": "https://erfansefat.github.io/SpaceX/"
+    },
+    {
+      "id": "1",
+      "title": "Pestrs (Pestech Posters)",
+      "desc": "Graphic design under thePestech brand",
+      "year": "2021-Now",
+      "type": "Design",
+      "imgsrc": "/thepestech.png",
+      "link": "https://bento.me/pestech"
+    }
+  ]
+}

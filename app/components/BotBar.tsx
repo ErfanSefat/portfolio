@@ -5,7 +5,8 @@ import React, { useEffect, useRef } from "react";
 
 export default function BotBar() {
   return (
-    <div className="flex flex-col w-dvw justify-between font-thin mb-10 mt-32 md:flex-row">
+    <div className="relative flex flex-col w-dvw justify-between font-thin mb-10 mt-32 md:flex-row">
+      <div className="absolute bg-blue-400 rounded-[50%] blur-[150px] h-32 w-[50dvw] -left-10 -bottom-20 md:left-[25dvw] md:-bottom-40 -z-50"></div>
       <div className="flex flex-col ml-9">
         <div className="opacity-40 ml-2 w-fit mb-1">Profiles</div>
         <div className="flex flex-wrap w-[200px] gap-y-1 md:w-fit md:gap-0">
