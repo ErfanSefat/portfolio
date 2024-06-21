@@ -24,6 +24,7 @@ export default function Page() {
     };
     fetchProjects();
   }, []);
+  const safeProjectsdata = projectsdata || { Projects: [] };
   const a = [
     { imgsrc: "/cover_design.png", key: 1 },
     { imgsrc: "/frame2.png", key: 2 },
@@ -48,7 +49,7 @@ export default function Page() {
 
       <Filter />
       <div className="flex flex-wrap gap-5 max-w-[800px] justify-center mx-5">
-        {projectsdata?.Projects?.map((e: any) => (
+        {safeProjectsdata?.Projects?.map((e: any) => (
           <ProjectCard
             overfunc={() => changecolor({ color: e.color })}
             leavefunc={() => resetcolor()}
