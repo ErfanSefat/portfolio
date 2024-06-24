@@ -6,10 +6,11 @@ export default function AboutBox() {
       <div className="flex flex-wrap min-w-[280px] w-[60%] xl:w-[30%] h-fit border-t relative pt-5 gap-2 mt-12 mb-12">
         <div className="absolute -top-9 font-bold text-[20px]">Skills</div>
         <Exboxes text="HTML" color="bg-red-900" />
-        <Exboxes text="CSS" color="bg-purple-950" />
+        <Exboxes text="CSS" color="bg-lime-800" />
         <Exboxes text="TypeScript" color="bg-cyan-950" />
+        <Exboxes text="React" color="bg-sky-800" />
         <Exboxes text="NextJS" color="bg-pink-950" />
-        <Exboxes text="Prisma" color="bg-lime-900" />
+        <Exboxes text="Prisma" color="bg-purple-900" />
         <Exboxes text="Tailwind" color="bg-green-950" />
         <Exboxes text="Figma" color="bg-yellow-900" />
         <Exboxes text="Photoshop" color="bg-blue-900" />
