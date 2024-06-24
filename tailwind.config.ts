@@ -41,6 +41,9 @@ const config: Config = {
             transform: 'rotate(360deg)'
           },
         }
+      },
+      screens:{
+        xsm: '340px'
       }
     },
     

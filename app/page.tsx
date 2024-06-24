@@ -52,20 +52,15 @@ export default function Page() {
     fetchProjects();
   }, []);
   const safeProjectsdata = projectsdata || { Projects: [] };
-  const a = [
-    { imgsrc: "/cover_design.png", key: 1 },
-    { imgsrc: "/frame2.png", key: 2 },
-    { imgsrc: "/frame3.png", key: 3 },
-  ];
   const bg = useRef<HTMLDivElement>(null);
-  function changecolor({ color }: { color: string }) {
-    if (bg.current) {
-      bg.current.style.backgroundColor = `${color}`;
-    }
-  }
-  function resetcolor() {
-    if (bg.current) bg.current.style.backgroundColor = "#161616";
-  }
+  // function changecolor({ color }: { color: string }) {
+  //   if (bg.current) {
+  //     bg.current.style.backgroundColor = `${color}`;
+  //   }
+  // }
+  // function resetcolor() {
+  //   if (bg.current) bg.current.style.backgroundColor = "#161616";
+  // }
 
   return (
     <div className="flex flex-col items-center ">
@@ -115,9 +110,9 @@ export default function Page() {
       <div className="flex flex-wrap gap-5 max-w-[800px] justify-center mx-5">
         {safeProjectsdata?.Projects?.map((e: any) => (
           <ProjectCard
-            overfunc={() => changecolor({ color: e.color })}
-            leavefunc={() => resetcolor()}
-            key={e.key} // Ensure each element has a unique key
+            // overfunc={() => changecolor({ color: e.color })}
+            // leavefunc={() => resetcolor()}
+            key={e.key}
             name={e.title}
             desc={e.desc}
             year={e.year}
