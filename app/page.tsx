@@ -1,12 +1,39 @@
 "use client";
 import ProjectCard from "./components/ProjectCard";
-import Filter from "./components/Filter";
-import Intro from "./components/Intro";
 import React, { useEffect, useRef, useState } from "react";
-
+import clsx from "clsx";
 export default function Page() {
   const [projectsdata, setProjects] = useState(null);
-
+  const [filterCodes, setFilterCodes] = useState(false);
+  const [filterDesigns, setFilterDesigns] = useState(false);
+  useEffect(() => {
+    const types = document.querySelectorAll(".thisistype");
+    if (filterCodes === true) {
+      types.forEach((e) => {
+        if (e.innerHTML === "Code")
+          e.parentElement!.parentElement!.parentElement!.style.display = "none";
+      });
+    } else {
+      types.forEach((e) => {
+        if (e.innerHTML === "Code")
+          e.parentElement!.parentElement!.parentElement!.style.display = "flex";
+      });
+    }
+  }, [filterCodes, setFilterCodes]);
+  useEffect(() => {
+    const types = document.querySelectorAll(".thisistype");
+    if (filterDesigns === true) {
+      types.forEach((e) => {
+        if (e.innerHTML === "Design")
+          e.parentElement!.parentElement!.parentElement!.style.display = "none";
+      });
+    } else {
+      types.forEach((e) => {
+        if (e.innerHTML === "Design")
+          e.parentElement!.parentElement!.parentElement!.style.display = "flex";
+      });
+    }
+  }, [filterDesigns, setFilterDesigns]);
   useEffect(() => {
     const fetchProjects = async () => {
       try {
@@ -42,12 +69,49 @@ export default function Page() {
 
   return (
     <div className="flex flex-col items-center ">
+      <div className="flex z-50">
+        <div
+          className="cursor-pointer flex items-center mx-10 mb-20 w-20"
+          onClick={() => {
+            setFilterCodes(!filterCodes);
+          }}
+        >
+          <div
+            className={
+              "flex items-center justify-center h-3 w-3 rounded-lg mr-2 border border-white-1 duration-100 bg-white-3"
+            }
+          >
+            <div
+              className={clsx("w-1.5 h-1.5 bg-gradient-to-b from-white to-white-1 rounded-lg drop-shadow-sm", {
+                " opacity-0": filterCodes,
+                "opacity-100": !filterCodes,
+              })}
+            ></div>
+          </div>
+          Code
+        </div>
+        <div
+          className="cursor-pointer flex items-center mx-10 mb-20 w-20"
+          onClick={() => {
+            setFilterDesigns(!filterDesigns);
+          }}
+        >
+          <div className="flex items-center justify-center h-3 w-3 rounded-lg mr-2 border border-white-1 duration-100 bg-white-3">
+            <div
+              className={clsx("w-1.5 h-1.5 bg-gradient-to-b from-white to-white-1 rounded-lg", {
+                " opacity-0": filterDesigns,
+                "opacity-100": !filterDesigns,
+              })}
+            ></div>
+          </div>
+          Design
+        </div>
+      </div>
+
       <div
         className="w-dvw h-dvh fixed rounded-[50%] blur-[300px] opacity-50"
         ref={bg}
       ></div>
-
-      <Filter />
       <div className="flex flex-wrap gap-5 max-w-[800px] justify-center mx-5">
         {safeProjectsdata?.Projects?.map((e: any) => (
           <ProjectCard

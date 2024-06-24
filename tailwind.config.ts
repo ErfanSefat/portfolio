@@ -26,6 +26,7 @@ const config: Config = {
         'rich3': '0 10px 8px rgba(0, 0, 0, 0.8)',
         'rich4': '0 10px 20px rgba(0, 0, 0, 0.8)',
         'rich5': '0 5px 20px rgba(0, 0, 0, 1)',
+        'text': '0 -1px 5px rgba(0, 0, 0, 0.7)',
         'bottomtotop':'0 -30px 50px rgba(0, 0, 0, 0.8)',
       },
       animation: {

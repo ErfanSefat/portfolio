@@ -10,7 +10,7 @@ const NavigationBar = () => {
   const selector = useRef<HTMLDivElement>(null);
   useEffect(() => {
     if (selector)
-      selector.current?.addEventListener("mouseover", (e) => {
+      selector.current?.addEventListener("mousemove", (e) => {
         let x = e.offsetX;
         let y = e.offsetY;
         let boxWidth = 220;
@@ -31,7 +31,7 @@ const NavigationBar = () => {
         <div
           className={clsx(
             "bg-white-2 absolute rounded-[20px] bg-gradient-to-br from-white-1 via-transparent to-white-3",
-            { "right-1": pathname === "/expertise" },
+            { "right-1": pathname === "/about" },
             { "right-[113px]": pathname === "/" }
           )}
         >
@@ -41,7 +41,7 @@ const NavigationBar = () => {
         <Navbuttons
           name={"About"}
           pic={"/expertise_icon.svg"}
-          where={"/expertise"}
+          where={"/about"}
         />
       </div>
     </div>

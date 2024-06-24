@@ -18,17 +18,17 @@ export default function BotBar() {
           <LinkButton
             ml={"ml-[19px] md:ml-1"}
             name="Github"
-            link="https://www.behance.net/erfansefat"
+            link="https://github.com/erfansefat"
           />
           <LinkButton
             ml={"ml-[6px] md:ml-0.5"}
             name="LinkedIn"
-            link="https://www.behance.net/erfansefat"
+            link="https://www.linkedin.com/in/erfansefat/"
           />
           <LinkButton
             ml={"ml-[30px] md:ml-2"}
             name="Telegram"
-            link="https://www.behance.net/erfansefat"
+            link="https://t.me/erfansefat"
           />
         </div>
       </div>
@@ -38,12 +38,12 @@ export default function BotBar() {
           <LinkButton
             ml={"ml-[7px] md:ml-0"}
             name="ErfanSefat@yahoo.com"
-            link="https://www.behance.net/erfansefat"
+            link="mailto:erfansefat@yahoo.com"
           />
           <LinkButton
             ml={"ml-[-16px] md:-ml-2"}
             name="+989199158065"
-            link="https://www.behance.net/erfansefat"
+            link="tel:+989199158065"
           />
         </div>
       </div>

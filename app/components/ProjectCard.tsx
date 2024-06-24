@@ -38,13 +38,13 @@ const ProjectCard = ({
         />
         <div className="m-[1px] bg-black rounded-[6px] absolute h-6 w-14 blur-lg right-2 top-7 opacity-30"></div>
         <div className="bg-gradient-to-br from-white-1 via-white-4 to-white-3 rounded-[7px] backdrop-blur-[3px] drop-shadow-rich3 absolute right-4 top-4">
-          <div className="m-[1px] bg-card-background2 rounded-[6px] px-2 py-1 text-[11px]">
+          <div className="thisistype m-[1px] bg-card-background2 rounded-[6px] px-2 py-1 text-[11px]">
             {type}
           </div>
         </div>
 
         <div className="w-[320px]">
-          <div className="flex items-end justify-between mb-1.5 font-light">
+          <div className="flex items-end justify-between mb-1.5 ">
             <div>{name}</div>
             <div className="text-[11px] border px-2 py-[1px] rounded-md opacity-50 -mr-1.5">{year}</div>
           </div>
